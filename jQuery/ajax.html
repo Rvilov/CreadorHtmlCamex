@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    
+
+  
+
+
+   <title>AJAX</title>
+</head>
+
+    <style>
+        
+        #datos{
+            border: 2px solid green;
+            width: 250px;
+            height: 250px;
+            overflow: scroll;
+        }
+ 
+    </style>
+<body>
+
+    <form action="https://reqres.in/api/users" method="post">
+        <input type="text" name="name" id="name">
+        <input type="text" name="web" id="">
+        <input type="submit" value="registrar">
+    </form>
+    <div id="datos"></div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/05-ajax.js"></script>
+</body>
+
+</html>
